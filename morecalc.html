@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1> Javascript Comparison </h1>
+        <h2> The && Operator (Logical AND) </h2>
+        <p> The && operator returns true if both expressions are true,
+            otherwise it returns false.
+        </p>
+        <p> 2. Input your age and click the button </p>
+        <h2> The Ternary Operator </h2>
+        <p id="demo"></p>
+        <script>
+        /* let x = 6;
+        let y = 3;
+
+        document.getElementById("demo").innerHTML = 
+        (x < 10 && y>1) + "<br>" + 
+        (x < 10 && y < 1); */
+    </script>
+    <input id="age" value="18" />
+     <button onclick="myFunction()"> Try it </button>
+
+     <p id="demo"></p>
+     <p> Car name is: </p>
+     <p id="demo"></p>
+
+     <script>
+       // function myFunction() {
+            //let age=
+            //document.getElementById("age").value;
+            //let voteable = (age < 18)? "Too young": "Old enough";
+            //document.getElementById("demo").innerHTML = voteable + " to vote.";
+        //}
+       /* function myFunction() {
+            let voteable;
+            let age = 
+            Number (document.getElementById("age").value);
+            if (isNaN(age)) {
+                voteable = "Input is not a number";
+            } else {
+                voteable = (age < 18) ? "Too young" : "Old enough";
+          
+            }
+
+            document.getElementById("demo").innerHTML = voteable + " to vote";
+
+        }*/
+        /*let name = null;
+        let text = "missing";
+        let result = name ?? text;
+        document.getElementById("demo").innerHTML = "The name is " + result; */
+        const car = {type: "Fiat", model: "500", color: "white"};
+        let name = car?.name;
+        document.getElementById("demo").innerHTML = name;
+      
+     </script>
+
+
+
+
+    </body>
+</html>

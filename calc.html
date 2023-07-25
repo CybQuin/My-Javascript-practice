@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2> Redeclaring a Variable Using let 
+            Javascript Let
+            Javascript Hoisting
+            Javascript Const
+        </h2>
+        <p>Redeclaring a Javascript variable with <b> var </b> is allowed anywhere in a program:
+        Redeclaring a variable with <b> let </b> in another scope, or in another  block, is allowed.
+    With var you cab use a variable before it is declared:</p>
+        
+        <p id="demo"> </p>   
+    
+    </body>
+    <script>
+        //carName = "Volvo";
+        //document.getElementById("demo").innerHTML = carName;
+        //var carName;
+       // var x=12;
+        //var x=3;
+        //let x = 10;
+     /*   With let, you cannot use a variable before it is declared.
+        {
+            let x = 2;
+            document.getElementById("demo").innerHTML = x;
+        }
+        //Here x is 10. */
+       // document.getElementById("demo").innerHTML = x;
+
+       /*let x = 2;
+       {
+        let x = 3;
+       }
+       {
+        let x = 4;
+       }
+       document.getElementById("demo").innerHTML = x; 
+       It keeps a value constant for a period of time.
+       Always use the const when you know a value cannot be changed.
+       It can be use to declare a new array, a new object, a new function, a new regexp.
+       IN A CONSTANT, YOU CAN'T REASSIGN A CONSTANT VALUE.
+       REASSIGN A CONSTANT ARRAY
+       REASSIGN A CONSTANT OBJECT.
+       
+       BUT YOU CAN;
+       Change the elements of the constant array;
+       change the properties of constant object
+       
+       Types of Javascript Operators.
+       There are different types of Javascript Operators.
+       Assignment Operators, Arithmetic Operators, Comparison Operators,
+       String Operators, Logical Operators,  Bitwise Operators, Ternary Operators,
+       Type Operators.
+       x += 5 adds x to 5.
+       === means equal value and equal type.
+       
+       
+       .*/
+  
+    //const cars = ["Saab", "Volvo", "BMW"]
+    //cars[0] = "Toyota";
+    //cars.push("Audi");
+    //document.getElementById("demo").innerHTML = cars;
+//const car = {type: "Flat", model: "500", color: "white"};
+//car.color = "red";
+//car.owner = "Johnson";
+//document.getElementById("demo").innerHTML = "Car owner is " + car.owner;
+   /*var carName = "Volvo";
+   var carName;
+   try {
+    var carName = "Volvo";
+    var carName;
+    alert(carName);
+   }
+   catch (err) {
+    document.getElementById("demo").innerHTML = err;
+   }*/
+   
+   /* let a = 3;
+   let x = (100 + 50) * a;
+   document.getElementById("demo").innerHTML = x; */
+
+   let text1 = "A";
+   let text2 = "B";
+   let result = text1 < text2;
+   document.getElementById("demo").innerHTML = "Is A less than B?" + result;
+   // IF YOU WANT TO ADD A NUMBER AND A STRING, THE RESULT WILL BE STRING.
+   </script>
+     <p> Declaring a constant does not make its elements unchangeable. </p>
+<p> You can change the properties of a constant object
+    Redeclaring an existing var or let variable to const, in the same scope, is not allowed.
+    Variables defined with var are hoisted to the top and can be initialized at any time.
+    This means you can use a var before it is declared.
+    A typical arithmetic operation takes two numbers (or expressions) and
+    produces a new one.
+</p>
+
+
+</html>

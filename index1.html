@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title> Hello, World </title>
+    </head>
+    <body>
+        <h2> What can Javascript do?! </h2>
+        <p id="demo"> Javascript can change HTML content</p>
+        <button type="button" onclick='document.getElementById("demo").style.fontSize = "35px"'> Click Me! </button>
+        <button type="button" onclick="myFunction()">Try it</button>
+        <button type="button" onclick="document.getElementById('demo').innerHTML = Date()"> Display Time </button>
+        <button type="button" onclick='document.getElementById("demo").style.display = "none"'> Hide! </button>
+        <button type="button" onclick='document.getElementById("demo").style.display = "block"'> Show! </button>
+        <div id="content">
+        <p> Be Happy </p>
+        <!-- Next time we wish to make  website menu option, we use the above format-->
+    </div>
+
+    <p> Javascript can change HTML attribute values. </p>
+    <p> In this case, Javascript changes the value of the src (source) attributeof an image. </p>
+    <!--<p id="demo"> Javascript can change HTML content</p> -->
+    <p id="Mybulb"> Do not ever give up!</p>
+    <button onclick='document.getElementById("Mybulb").style.fontStyle = Bold'> Click Me! </button>
+
+    <script> document.getElementById("dem").innerHTML = "My First Javascript"; </script>
+    
+<!-- Javascript function is a block of Javascript code, that can be executed when "called" for.-->
+    <!-- Always embed your html code at the end of the code. Until you get to where it should pop up-->
+         <!--You can also embed it from an external source at the end 
+        With Javascript, you can add several scripts to one page.
+    You can also link a js file from another website or path.
+
+Javascript can display result in different ways. -Writing into HTML element 
+using innerHTML. Writing into HTML output using document.write(). 
+Writing into an alert box using window.alert().
+Writing into the browser console, using console.log(). -->
+    <script src="initial.js"></script>
+
+    </body>
+</html>
